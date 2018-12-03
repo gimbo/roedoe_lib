@@ -4,7 +4,6 @@ Tests of base.FSTree.filter()
 
 import re
 
-
 from roedoe_lib import FSTree
 
 

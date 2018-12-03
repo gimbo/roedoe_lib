@@ -4,11 +4,7 @@ Tests of FSTree.at_path() class method.
 
 import os
 
-
-from roedoe_lib import (
-    FSTree,
-    ignore,
-)
+from roedoe_lib import FSTree, ignore
 
 
 def test_basic(basic):
@@ -20,9 +16,9 @@ def test_basic(basic):
         'a': FSTree({
             'b': None,
             'a': FSTree({
-                    'd': None,
-                    'e': None,
-                }),
+                'd': None,
+                'e': None,
+            }),
             'f': None,
         }),
         'h': FSTree({
